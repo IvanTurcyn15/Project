@@ -56,7 +56,7 @@ body {
 .contact-input {
   border: none;
   border-radius: 30px;
-  margin-left: 33px;
+  padding-left: 33px;
   margin-right: auto;
 }
 
@@ -127,10 +127,12 @@ body {
 }
 
 .nav {
-  width: 580px;
-  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .nav-list {
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +179,6 @@ body {
   line-height: 64.36px;
   text-align: center;
   margin: 0 auto;
-  margin-left: auto;
   color: rgb(255, 255, 255);
 }
 .section-hero-btn {
@@ -256,7 +257,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 17px;
-  max-height: 139px;
 }
 .app-list-title {
   font-size: 18px;
@@ -281,7 +281,6 @@ body {
   border: 1px solid rgb(224, 224, 224);
   width: 110px;
   height: 110px;
-  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,11 +293,19 @@ body {
 }
 
 .app-wrap-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 50%;
   border: 1px solid rgb(73, 133, 255);
   width: 90px;
   height: 90px;
-  padding: 25px;
 }
 
 .section-about {
@@ -336,13 +343,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 121px;
   padding-bottom: 90px;
   border-bottom: 1px solid rgb(224, 224, 224);
 }
@@ -384,8 +390,8 @@ body {
 
 .section-services {
   padding: 100px 0 85px 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(51%, rgb(80, 77, 194)), color-stop(49%, rgb(255, 255, 255)));
-  background: linear-gradient(to bottom, rgb(80, 77, 194) 51%, rgb(255, 255, 255) 49%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(51%, rgb(80, 77, 194)), color-stop(49%, rgb(255, 255, 255)));
+  background-image: linear-gradient(to bottom, rgb(80, 77, 194) 51%, rgb(255, 255, 255) 49%);
 }
 .section-services-title {
   max-width: 540px;
@@ -414,14 +420,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 78px;
-  gap: 370px;
 }
 
 .services-list {
@@ -586,6 +591,11 @@ body {
   gap: 20px;
 }
 
+.section-contact > .container {
+  border-top: 1px solid rgb(224, 224, 224);
+  padding-top: 85px;
+}
+
 .section-contact {
   padding: 0 0 85px 0;
 }
@@ -596,8 +606,6 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-bottom: 20px;
-  border-top: 1px solid rgb(224, 224, 224);
-  padding-top: 85px;
 }
 .section-contact-desc {
   font-size: 16px;

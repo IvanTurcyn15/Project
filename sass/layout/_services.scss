@@ -1,6 +1,6 @@
 .section-services{
     padding: 100px 0 85px 0;
-    background: linear-gradient(to bottom, rgba(80, 77, 194, 1) 51%, rgba(255, 255, 255, 1) 49%);
+    background-image: linear-gradient(to bottom, rgba(80, 77, 194, 1) 51%, rgba(255, 255, 255, 1) 49%);
     &-title{
         max-width: 540px;
         font-size: 36px;
@@ -26,10 +26,9 @@
 
 .services-wrap{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 78px;
-    gap: 370px;
 }
 
 .services-list{

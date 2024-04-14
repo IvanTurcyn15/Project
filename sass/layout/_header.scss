@@ -8,9 +8,9 @@
 }
 
 .nav{
-    width: 580px;
-    margin-left: auto;
+    display: flex;
     &-list{
+        margin-left: auto;
         display: flex;
         align-items: center;
         gap: 35px;

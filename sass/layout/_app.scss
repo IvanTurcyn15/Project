@@ -46,7 +46,6 @@
     &-item{
         display: flex;
         gap: 17px;
-        max-height: 139px;
     }
     &-title{
         font-size: 18px;
@@ -72,16 +71,17 @@
     border: 1px solid rgba(224, 224, 224, 1);
     width: 110px;
     height: 110px;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .app-wrap-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     border: 1px solid rgba(73, 133, 255, 1);
     width: 90px;
     height: 90px;
-    padding: 25px;
 }
