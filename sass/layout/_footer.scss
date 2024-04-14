@@ -3,8 +3,7 @@
     background-color: rgba(246, 246, 248, 1);
     &-wrap{
         display: flex;
-        gap: 40px;
-        justify-content: center;
+        justify-content: space-between;
         padding-bottom: 70px;
         border-bottom: 1px solid rgba(224, 224, 224, 1);
     }

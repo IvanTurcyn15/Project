@@ -623,10 +623,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 70px;
   border-bottom: 1px solid rgb(224, 224, 224);
 }
